@@ -1,3 +1,13 @@
+#secret shit
+config.env
+
+#DS Store
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+
+
 # Logs
 logs
 *.log
@@ -56,4 +66,3 @@ typings/
 
 # dotenv environment variables file
 .env
-
