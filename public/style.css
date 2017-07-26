@@ -1,0 +1,23 @@
+.body {
+  font-family: sans-serif;
+}
+
+.main-area {
+  width: 85vw;
+  margin: auto;
+}
+
+.now, .then {
+  display: inline-block;
+  width: 40vw;
+  margin: auto;
+  text-align:center;
+}
+
+.now {
+  background-color: pink;
+}
+
+.then {
+  background-color: yellow;
+}
