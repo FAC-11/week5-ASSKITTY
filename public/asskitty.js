@@ -1,0 +1,25 @@
+/* eslint-disable */
+var getDate = function( yearsAgo ) {
+
+  if ( yearsAgo === undefined ) {
+    yearsAgo = 0;
+  }
+
+  var date = new Date();
+  var dd = date.getDate();
+  var mm = date.getMonth() + 1;
+  var yyyy = date.getFullYear() - yearsAgo;
+
+  if ( dd < 10 ) {
+    dd = '0' + dd;
+  }
+
+  if ( mm < 10 ) {
+    mm = '0' + mm;
+  }
+
+  date = yyyy + mm + dd;
+  console.log(date);
+};
+
+getDate();
