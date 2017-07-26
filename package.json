@@ -1,0 +1,38 @@
+{
+  "name": "week5-asskitty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tape ./tests/*.test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FAC-11/week5-ASSKITTY.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FAC-11/week5-ASSKITTY/issues"
+  },
+  "homepage": "https://github.com/FAC-11/week5-ASSKITTY#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "env2": "^2.2.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0",
+    "istanbul": "^0.4.5",
+    "nodemon": "^1.11.0",
+    "shot": "^3.4.2",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.7.0",
+    "travis": "^0.1.1"
+  }
+}
