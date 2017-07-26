@@ -21,3 +21,9 @@
 .then {
   background-color: yellow;
 }
+
+.now__button, .then__button {
+  border: none;
+  display: block;
+  background: none;
+}
