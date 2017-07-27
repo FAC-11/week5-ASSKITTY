@@ -13,3 +13,17 @@ test('checking home route', (t) => {
     t.end();
   });
 });
+
+test('test handlePublic with css', (t) => {
+  shot.inject(router, {method: 'get', url: 'public/style.css'}, (res) => {
+    t.equal(res.statusCode, 200, 'should respond with status code 200');
+    t.end();
+  });
+});
+
+test('test handlePublic with js', (t) => {
+  shot.inject(router, {method: 'get', url: 'public/asskitty.js'}, (res) => {
+    t.equal(res.statusCode, 200, 'should respond with status code 200');
+    t.end();
+  });
+});

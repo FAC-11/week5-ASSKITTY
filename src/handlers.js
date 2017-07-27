@@ -15,7 +15,6 @@ const handleHomeRoute = (req, res) => {
 };
 
 const handlePublic = (req, res, url) => {
-  console.log(url);
   const extension = url.split('.')[1];
   const extensionType = {
     html: 'text/html',
