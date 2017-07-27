@@ -49,6 +49,10 @@ var badDomCreation = function () {
 }
 
 var createDOM = function (sectionID, responseObject) {
+  console.log(sectionID);
+  if(sectionID==='the'){
+    sectionID = 'then';
+  };
   var sectionOnDOM = document.getElementById(sectionID);
   var ourResults = responseObject.results;
   var divToAppend;

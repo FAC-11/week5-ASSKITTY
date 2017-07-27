@@ -10,6 +10,7 @@ const buildAPIURL = ( date, apiURL = 'https://api.nytimes.com/svc/search/v2/arti
 
 const makeRequest = (date, callback) => {
   const url = buildAPIURL(date);
+  console.log(url);
   // let returnObject;
   request.get(url, (err, response, body) => {
     if (err){
