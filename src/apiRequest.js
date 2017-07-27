@@ -9,6 +9,7 @@ const buildAPIURL = ( date = 20170727, apiURL = 'https://api.nytimes.com/svc/sea
 
 const makeRequest = ( apiUrl = buildAPIURL() ) => {
   request.get(apiUrl, (err, response, body) => {
+    console.log(JSON.parse(body));
     return JSON.parse(body);
   });
 }
