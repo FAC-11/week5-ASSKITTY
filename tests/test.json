@@ -1,0 +1,350 @@
+{
+  "response": {
+    "meta": {
+      "hits": 355,
+      "time": 38,
+      "offset": 0
+    },
+    "docs": [
+      {
+        "web_url": "https://www.nytimes.com/aponline/2017/07/27/world/middleeast/ap-ml-palestinians-gaza-deal.html",
+        "snippet": "Lawmakers from Hamas and those affiliated with a former Gaza strongman have met for the first time in a decade in Gaza's parliament building....",
+        "lead_paragraph": "Lawmakers from Hamas and those affiliated with a former Gaza strongman have met for the first time in a decade in Gaza's parliament building.",
+        "abstract": null,
+        "print_page": null,
+        "blog": [],
+        "source": "AP",
+        "multimedia": [],
+        "headline": {
+          "main": "Gaza Power-Sharing Deal Moves Ahead With Parliament Meeting",
+          "print_headline": "Gaza Power-Sharing Deal Moves Ahead With Parliament Meeting"
+        },
+        "keywords": [],
+        "pub_date": "2017-07-27T09:51:58+0000",
+        "document_type": "article",
+        "news_desk": "None",
+        "section_name": "World",
+        "subsection_name": "Middle East",
+        "byline": {
+          "person": [],
+          "original": "By THE ASSOCIATED PRESS",
+          "organization": "THE ASSOCIATED PRESS"
+        },
+        "type_of_material": "News",
+        "_id": "5979b7c87c459f246b61b3f2",
+        "word_count": 136,
+        "slideshow_credits": null
+      },
+      {
+        "web_url": "https://www.nytimes.com/reuters/2017/07/27/world/middleeast/27reuters-israel-palestinians-jordan.html",
+        "snippet": "Jordan said on Thursday Israel's removal of security measures installed on a Muslim holy site in Jerusalem would pave the way to calm the situation in Palestinian territories and defuse tensions....",
+        "lead_paragraph": "Jordan said on Thursday Israel's removal of security measures installed on a Muslim holy site in Jerusalem would pave the way to calm the situation in Palestinian territories and defuse tensions.",
+        "abstract": null,
+        "print_page": null,
+        "blog": [],
+        "source": "Reuters",
+        "multimedia": [],
+        "headline": {
+          "main": "Jordan Says Israel's Backtracking on Jerusalem 'Calms' Situation",
+          "print_headline": "Jordan Says Israel's Backtracking on Jerusalem 'Calms' Situation"
+        },
+        "keywords": [],
+        "pub_date": "2017-07-27T09:51:30+0000",
+        "document_type": "article",
+        "news_desk": "None",
+        "section_name": "World",
+        "subsection_name": "Middle East",
+        "byline": {
+          "person": [],
+          "original": "By REUTERS",
+          "organization": "REUTERS"
+        },
+        "type_of_material": "News",
+        "_id": "5979b7ac7c459f246b61b3f1",
+        "word_count": 131,
+        "slideshow_credits": null
+      },
+      {
+        "web_url": "https://www.nytimes.com/reuters/2017/07/27/business/27reuters-eu-subsidies-ports.html",
+        "snippet": "The European Commission told Belgium and France on Thursday to end corporate tax exemptions they granted to their ports to avoid distortions of competition and said it was looking into taxation issues at other ports in Europe....",
+        "lead_paragraph": "The European Commission told Belgium and France on Thursday to end corporate tax exemptions they granted to their ports to avoid distortions of competition and said it was looking into taxation issues at other ports in Europe.",
+        "abstract": null,
+        "print_page": null,
+        "blog": [],
+        "source": "Reuters",
+        "multimedia": [],
+        "headline": {
+          "main": "EU Tells Belgium, France to End Tax Exemptions for Ports",
+          "print_headline": "EU Tells Belgium, France to End Tax Exemptions for Ports"
+        },
+        "keywords": [],
+        "pub_date": "2017-07-27T09:51:28+0000",
+        "document_type": "article",
+        "news_desk": "None",
+        "section_name": "Business Day",
+        "subsection_name": null,
+        "byline": {
+          "person": [],
+          "original": "By REUTERS",
+          "organization": "REUTERS"
+        },
+        "type_of_material": "News",
+        "_id": "5979b7a67c459f246b61b3f0",
+        "word_count": 233,
+        "slideshow_credits": null
+      },
+      {
+        "web_url": "https://www.nytimes.com/reuters/2017/07/27/sports/27reuters-swimming-world-spitz.html",
+        "snippet": "American great Mark Spitz believes Sarah Sjostrom, Sweden's sprint sensation, can swim even faster after she became the first woman to go under 52 seconds for the 100 metres freestyle....",
+        "lead_paragraph": "American great Mark Spitz believes Sarah Sjostrom, Sweden's sprint sensation, can swim even faster after she became the first woman to go under 52 seconds for the 100 metres freestyle.",
+        "abstract": null,
+        "print_page": null,
+        "blog": [],
+        "source": "Reuters",
+        "multimedia": [],
+        "headline": {
+          "main": "Sjostrom Can Get Even Faster, Says Spitz",
+          "print_headline": "Sjostrom Can Get Even Faster, Says Spitz"
+        },
+        "keywords": [],
+        "pub_date": "2017-07-27T09:45:31+0000",
+        "document_type": "article",
+        "news_desk": "None",
+        "section_name": "Sports",
+        "subsection_name": null,
+        "byline": {
+          "person": [],
+          "original": "By REUTERS",
+          "organization": "REUTERS"
+        },
+        "type_of_material": "News",
+        "_id": "5979b6477c459f246b61b3ef",
+        "word_count": 458,
+        "slideshow_credits": null
+      },
+      {
+        "web_url": "https://www.nytimes.com/aponline/2017/07/27/world/europe/ap-eu-greece-eu-migrants.html",
+        "snippet": "The European Commission is announcing a new emergency support package for Greece to help it deal with the refugee crisis that has seen tens of thousands of migrants and refugees stuck in the country....",
+        "lead_paragraph": "The European Commission is announcing a new emergency support package for Greece to help it deal with the refugee crisis that has seen tens of thousands of migrants and refugees stuck in the country.",
+        "abstract": null,
+        "print_page": null,
+        "blog": [],
+        "source": "AP",
+        "multimedia": [],
+        "headline": {
+          "main": "EU Announces New Emergency Support for Greek Refugee Crisis",
+          "print_headline": "EU Announces New Emergency Support for Greek Refugee Crisis"
+        },
+        "keywords": [],
+        "pub_date": "2017-07-27T09:42:38+0000",
+        "document_type": "article",
+        "news_desk": "None",
+        "section_name": "World",
+        "subsection_name": "Europe",
+        "byline": {
+          "person": [],
+          "original": "By THE ASSOCIATED PRESS",
+          "organization": "THE ASSOCIATED PRESS"
+        },
+        "type_of_material": "News",
+        "_id": "5979b5987c459f246b61b3ee",
+        "word_count": 129,
+        "slideshow_credits": null
+      },
+      {
+        "web_url": "https://www.nytimes.com/reuters/2017/07/27/world/asia/27reuters-pakistan-rape.html",
+        "snippet": "Pakistani police have arrested 25 members of an informal village council accused of ordering the rape of a 16-year-old girl as revenge for her brother's alleged sexual assault of another girl....",
+        "lead_paragraph": "Pakistani police have arrested 25 members of an informal village council accused of ordering the rape of a 16-year-old girl as revenge for her brother's alleged sexual assault of another girl.",
+        "abstract": null,
+        "print_page": null,
+        "blog": [],
+        "source": "Reuters",
+        "multimedia": [],
+        "headline": {
+          "main": "Pakistani Council Orders 'Revenge Rape' of 16-Year-Old Girl",
+          "print_headline": "Pakistani Council Orders 'Revenge Rape' of 16-Year-Old Girl"
+        },
+        "keywords": [],
+        "pub_date": "2017-07-27T09:42:28+0000",
+        "document_type": "article",
+        "news_desk": "None",
+        "section_name": "World",
+        "subsection_name": "Asia Pacific",
+        "byline": {
+          "person": [],
+          "original": "By REUTERS",
+          "organization": "REUTERS"
+        },
+        "type_of_material": "News",
+        "_id": "5979b58a7c459f246b61b3ed",
+        "word_count": 417,
+        "slideshow_credits": null
+      },
+      {
+        "web_url": "https://www.nytimes.com/aponline/2017/07/27/world/middleeast/ap-ml-qatar-lobbying.html",
+        "snippet": "Qatar has hired a Washington influence firm founded by President Donald Trump's former campaign manager and another specialized in digging up dirt on U.S. politicians....",
+        "lead_paragraph": "Qatar has hired a Washington influence firm founded by President Donald Trump's former campaign manager and another specialized in digging up dirt on U.S. politicians.",
+        "abstract": null,
+        "print_page": null,
+        "blog": [],
+        "source": "AP",
+        "multimedia": [],
+        "headline": {
+          "main": "Qatar Hires Firm Founded by Trump Aide, Others Amid Crisis",
+          "print_headline": "Qatar Hires Firm Founded by Trump Aide, Others Amid Crisis"
+        },
+        "keywords": [],
+        "pub_date": "2017-07-27T09:36:50+0000",
+        "document_type": "article",
+        "news_desk": "None",
+        "section_name": "World",
+        "subsection_name": "Middle East",
+        "byline": {
+          "person": [],
+          "original": "By THE ASSOCIATED PRESS",
+          "organization": "THE ASSOCIATED PRESS"
+        },
+        "type_of_material": "News",
+        "_id": "5979b43c7c459f246b61b3ec",
+        "word_count": 127,
+        "slideshow_credits": null
+      },
+      {
+        "web_url": "https://www.nytimes.com/aponline/2017/07/27/world/europe/ap-eu-europe-turkey-the-latest.html",
+        "snippet": "The Latest on the relationship between Turkey and the European Union (all times local):...",
+        "lead_paragraph": "The Latest on the relationship between Turkey and the European Union (all times local):",
+        "abstract": null,
+        "print_page": null,
+        "blog": [],
+        "source": "AP",
+        "multimedia": [],
+        "headline": {
+          "main": "The Latest: Turkish PM Reassures German Firms in Turkey",
+          "print_headline": "The Latest: Turkish PM Reassures German Firms in Turkey"
+        },
+        "keywords": [],
+        "pub_date": "2017-07-27T09:36:48+0000",
+        "document_type": "article",
+        "news_desk": "None",
+        "section_name": "World",
+        "subsection_name": "Europe",
+        "byline": {
+          "person": [],
+          "original": "By THE ASSOCIATED PRESS",
+          "organization": "THE ASSOCIATED PRESS"
+        },
+        "type_of_material": "News",
+        "_id": "5979b4377c459f246b61b3eb",
+        "word_count": 275,
+        "slideshow_credits": null
+      },
+      {
+        "web_url": "https://www.nytimes.com/2017/07/27/briefing/health-care-donald-trump-foxconn.html",
+        "snippet": "Here’s what you need to know to start your day....",
+        "lead_paragraph": "Here’s what you need to know to start your day.",
+        "abstract": null,
+        "print_page": null,
+        "blog": [],
+        "source": "The New York Times",
+        "multimedia": [
+          {
+            "width": 600,
+            "url": "images/2017/07/28/world/27USBriefing-Transgender/27USBriefing-Transgender-articleLarge.jpg",
+            "rank": 0,
+            "height": 409,
+            "subtype": "xlarge",
+            "legacy": {
+              "xlargewidth": 600,
+              "xlarge": "images/2017/07/28/world/27USBriefing-Transgender/27USBriefing-Transgender-articleLarge.jpg",
+              "xlargeheight": 409
+            },
+            "type": "image"
+          },
+          {
+            "width": 190,
+            "url": "images/2017/07/28/world/27USBriefing-Transgender/27USBriefing-Transgender-thumbWide.jpg",
+            "rank": 0,
+            "height": 126,
+            "subtype": "wide",
+            "legacy": {
+              "wide": "images/2017/07/28/world/27USBriefing-Transgender/27USBriefing-Transgender-thumbWide.jpg",
+              "widewidth": 190,
+              "wideheight": 126
+            },
+            "type": "image"
+          },
+          {
+            "width": 75,
+            "url": "images/2017/07/28/world/27USBriefing-Transgender/27USBriefing-Transgender-thumbStandard.jpg",
+            "rank": 0,
+            "height": 75,
+            "subtype": "thumbnail",
+            "legacy": {
+              "thumbnailheight": 75,
+              "thumbnail": "images/2017/07/28/world/27USBriefing-Transgender/27USBriefing-Transgender-thumbStandard.jpg",
+              "thumbnailwidth": 75
+            },
+            "type": "image"
+          }
+        ],
+        "headline": {
+          "main": "Health Care, Donald Trump, Foxconn: Your Thursday Briefing",
+          "print_headline": ""
+        },
+        "keywords": [],
+        "pub_date": "2017-07-27T09:34:11+0000",
+        "document_type": "article",
+        "news_desk": "NYTNow",
+        "section_name": "Briefing",
+        "subsection_name": null,
+        "byline": {
+          "person": [
+            {
+              "organization": "",
+              "role": "reported",
+              "rank": 1,
+              "firstname": "Chris",
+              "lastname": "STANFORD"
+            }
+          ],
+          "original": "By CHRIS STANFORD"
+        },
+        "type_of_material": "briefing",
+        "_id": "5979b3987c459f246b61b3ea",
+        "word_count": 1024,
+        "slideshow_credits": null
+      },
+      {
+        "web_url": "https://www.nytimes.com/aponline/2017/07/27/us/ap-us-trump-military-transgender-voices.html",
+        "snippet": "A former U.S. naval combat-tested officer said she feels angry that President Donald Trump is saying transgender veterans like her should be considered unfit to serve....",
+        "lead_paragraph": "A former U.S. naval combat-tested officer said she feels angry that President Donald Trump is saying transgender veterans like her should be considered unfit to serve.",
+        "abstract": null,
+        "print_page": null,
+        "blog": [],
+        "source": "AP",
+        "multimedia": [],
+        "headline": {
+          "main": "'Fired by Tweet:' Troops, Veterans React to Transgender Ban",
+          "print_headline": "'Fired by Tweet:' Troops, Veterans React to Transgender Ban"
+        },
+        "keywords": [],
+        "pub_date": "2017-07-27T09:33:49+0000",
+        "document_type": "article",
+        "news_desk": "None",
+        "section_name": "U.S.",
+        "subsection_name": null,
+        "byline": {
+          "person": [],
+          "original": "By THE ASSOCIATED PRESS",
+          "organization": "THE ASSOCIATED PRESS"
+        },
+        "type_of_material": "News",
+        "_id": "5979b3897c459f246b61b3e9",
+        "word_count": 700,
+        "slideshow_credits": null
+      }
+    ]
+  },
+  "status": "OK",
+  "copyright": "Copyright (c) 2013 The New York Times Company.  All Rights Reserved."
+}
