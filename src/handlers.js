@@ -35,7 +35,7 @@ const handlePublic = (req, res, url) => {
 };
 
 const handleDate = (req, res) => {
-  const apiEndpoint = req.url.split("").splice(7,7).join("");
+  const searchDate = req.url.split("").splice(7,7).join("");
   const timeId = req.url.split("").splice(19,3).join("");
   res.writeHead(200, {'Content-Type': 'application/javascript'});
   res.end();
