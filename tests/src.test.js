@@ -35,6 +35,19 @@ test('test handlePublic with ico', (t) => {
   });
 });
 
+test('test apiCall for router', (t) => {
+  shot.inject(router, {method: 'get', url: '/?date=20170101&id=now'}, (res) => {
+    // const JSONObject = JSON.parse(res);
+    let actual = res.statusCode;
+    let expected = 200;
+    t.equal(actual, expected, 'should respond with status code 200');
+    // console.log(res);
+    // actual = JSONObject.;
+    // expected =;
+    t.end();
+  });
+});
+
 // test('test handleDate', (t) => {
 //   shot.inject(router, {method: 'get', url: '/?date'}, (res) => {
 //     t.equal(res.statusCode, 200, 'should respond with status code 200');
