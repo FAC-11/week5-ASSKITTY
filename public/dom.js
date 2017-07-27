@@ -10,7 +10,7 @@ var goodDomCreation = function (arrayOfResults) {
     newTitle.textContent = ele.headline;
     newArticle.textContent = ele.snippet;
     newATag.setAttribute('href', ele.link);
-    newAtag.setAttribute.target = '_blank';
+    // newAtag.setAttribute.target = '_blank';
     newButton.appendChild(newATag);
     newATag.appendChild(newTitle);
     newATag.appendChild(newArticle);
