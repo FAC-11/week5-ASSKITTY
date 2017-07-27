@@ -41,7 +41,6 @@ const handleDate = (req, res) => {
   const timeId = req.url.split("").splice(19,3).join("");
   // console.log(searchDate);
   // console.log(timeId);
-  //call api function
   apiRequest(searchDate, (err, resp) => {
     let formattedData = extractData(resp);
     formattedData.id = timeId;
