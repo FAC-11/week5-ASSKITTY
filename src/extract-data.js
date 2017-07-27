@@ -29,7 +29,7 @@ const frontendObjectBuilder = (dataObject) => {
   let completedObj = {};
   completedObj.results = extractData(dataObject);
   completedObj.isValid = true;
-
+  console.log(completedObj);
   return completedObj;
 };
 frontendObjectBuilder(testJSON);
