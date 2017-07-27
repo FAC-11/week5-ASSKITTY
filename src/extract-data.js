@@ -2,14 +2,14 @@ const testJSON = require('../tests/test.json');
 
 const extractData = (dataObject) => {
   let resultData = [];
-  dataObject.response.docs.forEach(()=> {
+  dataObject.response.docs.forEach((ele)=> {
     if (resultData.length >= 5){
       return;
     }
     let newArticle = {};
-    newArticle.headline = dataObject.response.docs[0].headline.main;
-    newArticle.snippet = dataObject.response.docs[0].snippet;
-    newArticle.link = dataObject.response.docs[0].web_url;
+    newArticle.headline = ele.headline.main;
+    newArticle.snippet = ele.snippet;
+    newArticle.link = ele.web_url;
     resultData.push(newArticle);
   });
   // console.log(resultData);
@@ -18,6 +18,7 @@ const extractData = (dataObject) => {
 
 const frontendObjectBuilder = (dataObject) => {
   // error handling to check that argument is in NYT format
+  // console.log(dataObject.response.docs);
   try {
     if (!dataObject.response.docs){
       throw new Error('Api returned an invalid object')
@@ -25,12 +26,11 @@ const frontendObjectBuilder = (dataObject) => {
   } catch (e) {
     return { isValid: false, message: 'Api returned an invalid object' };
   }
-
   let completedObj = {};
   completedObj.results = extractData(dataObject);
   completedObj.isValid = true;
-  console.log(completedObj);
+  // console.log(completedObj);
   return completedObj;
 };
-frontendObjectBuilder(testJSON);
+// frontendObjectBuilder(null, testJSON);
 module.exports = frontendObjectBuilder;

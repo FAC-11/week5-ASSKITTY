@@ -17,9 +17,8 @@ var getDate = function( yearsAgo ) {
   if ( mm < 10 ) {
     mm = '0' + mm;
   }
-
   date = yyyy + mm + dd;
-  console.log(date);
+  return date
 };
 
 getDate();
@@ -27,10 +26,17 @@ getDate();
 var xhrRequest = function (date, id, callback) {
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange =  function() {
-    if (xhr.readystate === 4 && xhr.status === 200){
-      callback(JSON.parse(xhr.responseText))
+    if (xhr.readyState === 4 && xhr.status === 200){
+      var responseText = JSON.parse(xhr.responseText);
+      var id = responseText.id
+      callback(id, responseText);
     }
   }
   xhr.open('Get', '/?date=' + date + '&id=' + id, true);
-  xhr.end();
+  xhr.send();
 }
+var todaysDate = getDate();
+var oldDate = getDate(150);
+
+xhrRequest(todaysDate, 'now', createDOM);
+xhrRequest(oldDate, 'then', createDOM);
