@@ -18,6 +18,7 @@ const extractData = (dataObject) => {
 
 const frontendObjectBuilder = (dataObject) => {
   // error handling to check that argument is in NYT format
+  // console.log(dataObject);
   try {
     if (!dataObject.response.docs){
       throw new Error('Api returned an invalid object')

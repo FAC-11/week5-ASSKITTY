@@ -57,7 +57,7 @@ var createDOM = function (sectionID, responseObject) {
     sectionOnDOM.appendChild(divToAppend);
   } else if (!responseObject.isValid) {
     divToAppend = badDomCreation();
-    console.log(divToAppend);
+    // console.log(divToAppend);
     sectionOnDOM.appendChild(divToAppend);
   }
 }

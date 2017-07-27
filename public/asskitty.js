@@ -19,20 +19,24 @@ var getDate = function( yearsAgo ) {
   }
 
   date = yyyy + mm + dd;
-  console.log(date);
+  return date
 };
 
 getDate();
 
 var xhrRequest = function (date, id, callback) {
+  console.log("test");
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange =  function() {
-    if (xhr.readystate === 4 && xhr.status === 200){
-      callback(JSON.parse(xhr.responseText))
+    if (xhr.readyState === 4 && xhr.status === 200){
+      console.log(xhr.responseText);
+      callback('now',JSON.parse(xhr.responseText));
+      // console.log("hi");
     }
   }
   xhr.open('Get', '/?date=' + date + '&id=' + id, true);
-  xhr.end();
+  xhr.send();
 }
-var todaysDate = getDate().toString();
-xhrRequest(todaysDate, 'now', createDOM)
+var todaysDate = getDate();
+// console.log(getDate());
+xhrRequest(todaysDate, 'now', createDOM);

@@ -39,15 +39,16 @@ const handlePublic = (req, res, url) => {
 const handleDate = (req, res) => {
   const searchDate = req.url.split("").splice(7,8).join("");
   const timeId = req.url.split("").splice(19,3).join("");
+  console.log(searchDate);
+  console.log(timeId);
   //call api function
-  apiRequest(20170101, (err, resp) => {
+  apiRequest(searchDate, (err, resp) => {
     let formattedData = extractData(resp);
+    formattedData.id = timeId;
+    console.log(formattedData);
     res.writeHead(200, {'Content-Type': 'application/json'});
     res.end(JSON.stringify(formattedData));
   });
-  // console.log(searchDate);
-  // const apiResponse = makeRequest(searchDate);
-  // const extractedObject = JSON.stringify(extractData(apiResponse));
 }
 
 module.exports = {

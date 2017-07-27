@@ -41,7 +41,7 @@ test('test apiCall for router', (t) => {
     let actual = res.statusCode;
     let expected = 200;
     t.equal(actual, expected, 'should respond with status code 200');
-    console.log(res);
+    // console.log(res);
     // actual = JSONObject.;
     // expected =;
     t.end();
