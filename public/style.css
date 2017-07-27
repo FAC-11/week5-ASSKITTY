@@ -1,17 +1,18 @@
 .body {
-  font-family: sans-serif;
+  font-family: 'Quando', serif;
 }
 
 .main-area {
-  width: 85vw;
+  width: 90vw;
+  height: 100vw;
   margin: auto;
 }
 
 .now, .then {
   display: inline-block;
-  width: 40vw;
+  width: 44vw;
   margin: auto;
-  text-align:center;
+  text-align: center;
 }
 
 .now {
@@ -19,11 +20,45 @@
 }
 
 .then {
-  background-color: yellow;
+  background-color: rgb(223, 171, 117);
 }
 
-.now__button, .then__button {
-  border: none;
+button {
+  width = 100%;
   display: block;
-  background: none;
+  margin: 1vw;
+  padding: 1vw 1vw;
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none !important;
+  background-color: hsla(270, 28%, 97%, 0.2);
+  border: 0 none;
+  border-radius: 8px;
+}
+
+.now__heading--modern, .then__heading--old {
+  font-size: 6vw;
+  margin: 2vw;
+}
+
+.now__subtitle {
+  font-size: 2vw;
+  margin: 0;
+  padding: 0;
+}
+
+.input-text {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: rgb(82, 28, 8);
+  width: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(251, 245, 251);
 }
