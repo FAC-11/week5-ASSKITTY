@@ -31,7 +31,8 @@ var goodDomCreation = function (arrayOfResults) {
     var newATag = document.createElement('a');
     newTitle.textContent = ele.headline;
     newArticle.textContent = ele.snippet;
-    newATag.setAttribute ('href', ele.link);
+    newATag.setAttribute('href', ele.link);
+    newAtag.setAttribute.target = '_blank';
     newButton.appendChild(newATag);
     newATag.appendChild(newTitle);
     newATag.appendChild(newArticle);
