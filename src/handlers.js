@@ -34,10 +34,14 @@ const handlePublic = (req, res, url) => {
   });
 };
 
-// const handleDate
+const handleDate = (req, res) => {
+  const urlEndpoint = req.url.replace('/?date', '');
+  res.writeHead(200, {'Content-Type': 'application/javascript'});
+  res.end();
+}
 
 module.exports = {
   handleHomeRoute,
   handlePublic,
-  // handleDate
+  handleDate,
 };

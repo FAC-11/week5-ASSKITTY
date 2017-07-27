@@ -34,3 +34,10 @@ test('test handlePublic with ico', (t) => {
     t.end();
   });
 });
+
+// test('test handleDate', (t) => {
+//   shot.inject(router, {method: 'get', url: '/?date'}, (res) => {
+//     t.equal(res.statusCode, 200, 'should respond with status code 200');
+//     t.end();
+//   });
+// });
