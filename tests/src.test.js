@@ -29,7 +29,7 @@ test('test handlePublic with js', (t) => {
 });
 
 test('test handlePublic with ico', (t) => {
-  shot.inject(router, {method: 'get', url: 'public/assets/asskitty.ico'}, (res) => {
+  shot.inject(router, {method: 'get', url: 'public/favicon.ico'}, (res) => {
     t.equal(res.statusCode, 200, 'should respond with status code 200');
     t.end();
   });

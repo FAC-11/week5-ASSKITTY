@@ -25,7 +25,7 @@ const handlePublic = (req, res, url) => {
   const filePath = path.join(__dirname, '..', url);
   fs.readFile(filePath, (error, file) => {
     if (error) {
-      res.writehead(500, 'Content-Type:text/html');
+      res.writeHead(500, 'Content-Type:text/html');
       res.end('<h1>Soz, no can do</h1>');
     } else {
       res.writeHead(200, `Content-Type: ${extensionType[extension]}`);
@@ -35,7 +35,9 @@ const handlePublic = (req, res, url) => {
 };
 
 const handleDate = (req, res) => {
-  const urlEndpoint = req.url.replace('/?date', '');
+  const apiEndpoint = req.url.split("").splice(7,7).join("");
+  // here we grab the timeid from the endpoint
+  // here call the extractData function
   res.writeHead(200, {'Content-Type': 'application/javascript'});
   res.end();
 }
