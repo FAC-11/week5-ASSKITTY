@@ -24,7 +24,7 @@
     "request": "^2.81.0"
   },
   "devDependencies": {
-    /*"env2": "^2.2.0",*/
+    "env2": "^2.2.0",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.1.0",
     "eslint-config-airbnb-base": "^11.3.1",
