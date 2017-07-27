@@ -23,3 +23,14 @@ var getDate = function( yearsAgo ) {
 };
 
 getDate();
+
+var xhrRequest = function (date, callback) {
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange =  function() {
+    if (xhr.readystate === 4 && xhr.status === 200){
+      callback(JSON.parse(xhr.responseText))
+    }
+  }
+  xhr.open('Get', '/?date'+ date, true);
+  xhr.end();
+}
