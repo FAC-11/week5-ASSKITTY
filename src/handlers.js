@@ -1,5 +1,7 @@
 const fs = require('fs');
 const path = require('path');
+const apiRequest = require('./apiRequest');
+const extractData = require('./extract-data');
 
 const handleHomeRoute = (req, res) => {
   const filePath = path.join(__dirname, '..', 'public', 'index.html');
@@ -35,10 +37,17 @@ const handlePublic = (req, res, url) => {
 };
 
 const handleDate = (req, res) => {
-  const searchDate = req.url.split("").splice(7,7).join("");
+  const searchDate = req.url.split("").splice(7,8).join("");
   const timeId = req.url.split("").splice(19,3).join("");
-  res.writeHead(200, {'Content-Type': 'application/javascript'});
-  res.end();
+  //call api function
+  apiRequest(20170101, (err, resp) => {
+    let formattedData = extractData(resp);
+    res.writeHead(200, {'Content-Type': 'application/json'});
+    res.end(JSON.stringify(formattedData));
+  });
+  // console.log(searchDate);
+  // const apiResponse = makeRequest(searchDate);
+  // const extractedObject = JSON.stringify(extractData(apiResponse));
 }
 
 module.exports = {

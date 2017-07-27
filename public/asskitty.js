@@ -34,3 +34,5 @@ var xhrRequest = function (date, id, callback) {
   xhr.open('Get', '/?date=' + date + '&id=' + id, true);
   xhr.end();
 }
+var todaysDate = getDate().toString();
+xhrRequest(todaysDate, 'now', createDOM)

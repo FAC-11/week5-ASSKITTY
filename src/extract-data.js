@@ -25,12 +25,11 @@ const frontendObjectBuilder = (dataObject) => {
   } catch (e) {
     return { isValid: false, message: 'Api returned an invalid object' };
   }
-
   let completedObj = {};
   completedObj.results = extractData(dataObject);
   completedObj.isValid = true;
-  console.log(completedObj);
+  // console.log(completedObj);
   return completedObj;
 };
-frontendObjectBuilder(testJSON);
+// frontendObjectBuilder(null, testJSON);
 module.exports = frontendObjectBuilder;
