@@ -20,6 +20,7 @@ const handlePublic = (req, res, url) => {
     html: 'text/html',
     css: 'text/css',
     js: 'application/javascript',
+    ico: 'image/x-icon',
   };
   const filePath = path.join(__dirname, '..', url);
   fs.readFile(filePath, (error, file) => {
