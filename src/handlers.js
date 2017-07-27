@@ -36,8 +36,7 @@ const handlePublic = (req, res, url) => {
 
 const handleDate = (req, res) => {
   const apiEndpoint = req.url.split("").splice(7,7).join("");
-  // here we grab the timeid from the endpoint
-  // here call the extractData function
+  const timeId = req.url.split("").splice(19,3).join("");
   res.writeHead(200, {'Content-Type': 'application/javascript'});
   res.end();
 }
