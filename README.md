@@ -13,13 +13,16 @@ The modern world moves at a furious pace. It seems that day by day there are so 
 - [ ] Users must be able to search for an input
 
 ## Architecture
-
-
+![Initial ideas](https://files.gitter.im/foundersandcoders/Asskitty/5knD/image.png)
+![File architecture and user flow](https://files.gitter.im/foundersandcoders/Asskitty/2zIz/image.png)
+![File flow](https://files.gitter.im/foundersandcoders/Asskitty/CrRF/image.png)
 
 ## Cool learnings
 `/* eslint-disable */`
 
 ## Resources
 [Today's Date](https://stackoverflow.com/questions/1531093/how-do-i-get-the-current-date-in-javascript)
+
 [New York Times documentation](https://developer.nytimes.com/)
+
 [Set up Heroku in 6 steps](https://drublic.de/blog/how-to-set-up-herokuapp/)
