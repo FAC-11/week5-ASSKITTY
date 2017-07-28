@@ -49,12 +49,12 @@ thenSubmit.addEventListener('click', function (ev){
     if (submitValue > 165 && submitValue < 0) {
       throw new Error("Error! Number is not between 0 and 166");
     }
+    oldDate = getDate(submitValue);
+    xhrRequest(oldDate, 'then', createDOM);
   }
   catch(e) {
     console.log("Error!");
     var divToAppend = badDomCreation();
     document.getElementById('then').appendChild(divToAppend);
   }
-  oldDate = getDate(submitValue);
-  xhrRequest(oldDate, 'then', createDOM);
 })
