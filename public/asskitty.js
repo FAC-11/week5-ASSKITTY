@@ -39,7 +39,6 @@ var todaysDate = getDate();
 
 xhrRequest(todaysDate, 'now', createDOM);
 
-
 var thenSubmit = document.getElementById('then-submit');
 thenSubmit.addEventListener('click', function (ev){
   var submitValue = document.getElementById('years').value;
