@@ -21,8 +21,7 @@
   },
   "homepage": "https://github.com/FAC-11/week5-ASSKITTY#readme",
   "dependencies": {
-    "request": "^2.81.0",
-    "env2": "^2.2.0"
+    "request": "^2.81.0"
   },
   "devDependencies": {
     "env2": "^2.2.0",
