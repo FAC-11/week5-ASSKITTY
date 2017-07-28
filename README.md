@@ -25,6 +25,8 @@ The modern world moves at a furious pace. It seems that day by day there are so 
 ## Resources
 [Today's Date](https://stackoverflow.com/questions/1531093/how-do-i-get-the-current-date-in-javascript)
 
+[Fix to heroku issues](https://github.com/angular-fullstack/generator-angular-fullstack/issues/1071)
+
 [New York Times documentation](https://developer.nytimes.com/)
 
 [Set up Heroku in 6 steps](https://drublic.de/blog/how-to-set-up-herokuapp/)
