@@ -9,13 +9,15 @@ The modern world moves at a furious pace. It seems that day by day there are so 
 ... that it can feel totally overwhelming to keep up. When these seismic shifts happen in our hyper-connected world, the people on the front line are not journalists from mainstream media organisations. They are people like you and me. Consumers of the news have also become the creators, and they are able to react to things at a rate of pace that is impossible for most formal outlets.
 
 ## Project Requirements
-- [ ] Must call an API and serve frequently changing content
-- [ ] Users must be able to search for an input
+- [x] Must call an API and serve frequently changing content
+- [x] Users must be able to search for an input
+- [x] Host on Heroku
+- [x] Employ code coverage and continous implementation
 
 ## Architecture
-![Initial ideas](https://files.gitter.im/foundersandcoders/Asskitty/5knD/image.png)
-![File architecture and user flow](https://files.gitter.im/foundersandcoders/Asskitty/2zIz/image.png)
-![File flow](https://files.gitter.im/foundersandcoders/Asskitty/NW4U/image.png)
+![Initial ideas](https://files.gitter.im/foundersandcoders/Asskitty/LLrc/image.png)
+![File architecture and user flow](https://files.gitter.im/foundersandcoders/Asskitty/YoVp/image.png)
+![File flow](https://files.gitter.im/foundersandcoders/Asskitty/pYYe/image.png)
 
 ## Cool learnings
 `/* eslint-disable */`
