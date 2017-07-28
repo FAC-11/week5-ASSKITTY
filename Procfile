@@ -1,1 +1,1 @@
-worker: node src/server.js -p $PORT
+web: node src/server.js -p $PORT
