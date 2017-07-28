@@ -52,6 +52,8 @@ thenSubmit.addEventListener('click', function (ev){
   }
   catch(e) {
     console.log("Error!");
+    var divToAppend = badDomCreation();
+    document.getElementById('then').appendChild(divToAppend);
   }
   oldDate = getDate(submitValue);
   xhrRequest(oldDate, 'then', createDOM);
