@@ -16,7 +16,7 @@ The modern world moves at a furious pace. It seems that day by day there are so 
 
 ## Architecture
 ![Initial ideas](https://files.gitter.im/foundersandcoders/Asskitty/LLrc/image.png)
-![File architecture and user flow](https://files.gitter.im/foundersandcoders/Asskitty/YoVp/image.png)
+![File architecture and user flow](https://files.gitter.im/foundersandcoders/Asskitty/rvr0/image.png)
 ![File flow](https://files.gitter.im/foundersandcoders/Asskitty/pYYe/image.png)
 
 ## Cool learnings
