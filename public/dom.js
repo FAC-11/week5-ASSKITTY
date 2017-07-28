@@ -1,5 +1,4 @@
 /* eslint-disable */
-
 var goodDomCreation = function (arrayOfResults) {
   var divToAppend = document.createElement('div');
   arrayOfResults.forEach(function (ele){

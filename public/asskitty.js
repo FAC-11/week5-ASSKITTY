@@ -36,7 +36,12 @@ var xhrRequest = function (date, id, callback) {
   xhr.send();
 }
 var todaysDate = getDate();
-var oldDate = getDate(150);
 
 xhrRequest(todaysDate, 'now', createDOM);
-xhrRequest(oldDate, 'then', createDOM);
+
+var thenSubmit = document.getElementById('then-submit');
+thenSubmit.addEventListener('click', function (ev){
+  var submitValue = document.getElementById('years').value;
+  oldDate = getDate(submitValue);
+  xhrRequest(oldDate, 'then', createDOM);
+})
