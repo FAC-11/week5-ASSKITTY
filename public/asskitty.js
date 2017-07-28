@@ -41,7 +41,23 @@ xhrRequest(todaysDate, 'now', createDOM);
 
 var thenSubmit = document.getElementById('then-submit');
 thenSubmit.addEventListener('click', function (ev){
-  var submitValue = document.getElementById('years').value;
+  var submitValue = Number(document.getElementById('years').value);
+  try {
+    if (!Number.isInteger(submitValue) || submitValue.toString() === '.') {
+      console.log(typeof submitValue);
+      throw new Error("Error! Submit value contains dot");
+    }
+    if (submitValue > 165 || submitValue < 0) {
+      console.log(typeof submitValue);
+      throw new Error("Error! Number is not between 0 and 166");
+    }
+  }
+  catch(e) {
+    console.log("Error!");
+    var divToAppend = badDomCreation();
+    document.getElementById('then').appendChild(divToAppend);
+    return;
+  }
   oldDate = getDate(submitValue);
   xhrRequest(oldDate, 'then', createDOM);
 })

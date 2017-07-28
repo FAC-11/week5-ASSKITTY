@@ -27,19 +27,24 @@ var badDomCreation = function () {
 }
 
 var createDOM = function (sectionID, responseObject) {
-  console.log(sectionID);
   if(sectionID==='the'){
     sectionID = 'then';
   };
+  var createdDiv = document.getElementById ('createdDiv'+sectionID);
+  if (createdDiv){
+    createdDiv.parentNode.removeChild(createdDiv);
+  }
   var sectionOnDOM = document.getElementById(sectionID);
   var ourResults = responseObject.results;
   var divToAppend;
   if (responseObject.isValid) {
     divToAppend = goodDomCreation(ourResults);
+    divToAppend.setAttribute('id','createdDiv'+sectionID);
     // return divToAppend;
     sectionOnDOM.appendChild(divToAppend);
   } else if (!responseObject.isValid) {
     divToAppend = badDomCreation();
+    divToAppend.setAttribute('id','createdDiv'+sectionID);
     // return divToAppend;
     sectionOnDOM.appendChild(divToAppend);
   }
