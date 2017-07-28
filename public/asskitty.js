@@ -1,4 +1,5 @@
 /* eslint-disable */
+var createDOM = createDOM;
 var getDate = function( yearsAgo ) {
 
   if ( yearsAgo === undefined ) {
@@ -40,3 +41,5 @@ var oldDate = getDate(150);
 
 xhrRequest(todaysDate, 'now', createDOM);
 xhrRequest(oldDate, 'then', createDOM);
+
+module.exports = getDate;
